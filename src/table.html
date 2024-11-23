@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Table HTML</title>
+  <link rel="stylesheet" href="table.css">
+</head>
+<body>
+    <h2>Tables in HTML</h2>
+  <table class="seminar-table">
+    <thead>
+      <tr>
+        <th rowspan="2">Day</th>
+        <th colspan="2">Seminar</th>
+        <th rowspan="2">Topic</th>
+      </tr>
+      <tr>
+        <th>Start</th>
+        <th>End</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>Monday</td>
+        <td class="start">8:00 a.m</td>
+        <td class="end">5:00 p.m</td>
+        <td>Introduction to XML</td>
+      </tr>
+      <tr>
+        <td></td>
+        <td class="start">8:00 a.m</td>
+        <td class="end">11:00 p.m</td>
+        <td>Validity: DTD and Relax NG</td>
+      </tr>
+      <tr>
+        <td>Tuesday</td>
+        <td class="start">11:00 a.m</td>
+        <td class="end">2:00 p.m</td>
+        <td>XPath</td>
+      </tr>
+      <tr>
+        <td></td>
+        <td class="start">2:00 p.m</td>
+        <td class="end">5:00 p.m</td>
+        <td>XSL Transformations</td>
+      </tr>
+      <tr>
+        <td>Wednesday</td>
+        <td class="start">8:00 a.m</td>
+        <td class="end">12:00 p.m</td>
+        <td>XSL Formatting Objects</td>
+      </tr>
+    </tbody>
+  </table>
+</body>
+</html>

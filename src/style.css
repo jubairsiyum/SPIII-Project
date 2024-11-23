@@ -1,0 +1,172 @@
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 120vh;
+    margin: 0;
+}
+
+/* For Forms
+*/
+
+.form-container {
+    background-color: #fff;
+    
+    padding: 20px 30px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    width: 100%;
+    max-width: 400px;
+}
+
+h1 {
+    text-align: center;
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+small {
+    color: #888;
+    text-align: center;
+    display: block;
+    margin-bottom: 20px;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="date"],
+input[type="number"],
+select {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+fieldset {
+    border: none;
+    padding: 0;
+    margin: 10px 0 15px;
+}
+
+legend {
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+label input[type="checkbox"],
+label input[type="radio"] {
+    margin-right: 8px;
+}
+
+button {
+    width: 100%;
+    padding: 12px;
+    background-color: #007BFF;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+/* For Nested List
+*/
+.list-container {
+    background-color: #fff;
+    padding: 20px 30px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    width: 100%;
+    max-width: 500px;
+}
+
+h2 {
+    text-align: center;
+    font-size: 24px;
+    margin-bottom: 15px;
+}
+
+ol, ul {
+    margin-left: 20px;
+    padding-left: 20px;
+}
+
+ol.roman {
+    list-style-type: lower-roman;
+}
+
+ol.alpha {
+    list-style-type: lower-alpha;
+}
+
+ul.circle {
+    list-style-type: circle;
+}
+
+ul.square {
+    list-style-type: square;
+}
+
+ul.disc {
+    list-style-type: disc;
+}
+
+li {
+    margin-bottom: 8px;
+}
+
+
+/* table css */
+
+.seminar-table {
+    width: 100%;
+    border-collapse: collapse;
+    text-align: center;
+    margin: 0 auto;
+  }
+  
+  .seminar-table th,
+  .seminar-table td {
+    border: 1px solid black;
+    padding: 10px;
+  }
+  
+  .seminar-table thead th {
+    background-color: #f4f4f4;
+  }
+  
+  .seminar-table tbody td.start {
+    background-color: #ffffcc;
+  }
+  
+  .seminar-table tbody td.end {
+    background-color: #d6d6f5;
+  }
+  
+  .seminar-table tbody td.topic {
+    text-align: left;
+  }
+  
+  .seminar-table tbody td:nth-child(2) {
+    background-color: #ccffcc;
+  }
+
+
+

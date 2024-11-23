@@ -1,0 +1,144 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+body {
+    margin-left: 150px;
+    margin-right: 150px;
+    margin-bottom: 300px;
+    font-family: 'Noto Sans', sans-serif;
+}
+
+h1 {
+    text-align: center;
+    margin: 0;
+}
+
+.boxContainer {
+    display: flex;
+    width: 100%;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.box {
+    width: 32%;
+    margin: 2px;
+    aspect-ratio: 1/1;
+    color: #f29f62;
+    font-size: x-large;
+}
+
+.box1 {
+    background-color: #7a5aed;
+}
+
+.box2 {
+    box-sizing: border-box;
+    border: solid 20px #00bf63;
+}
+
+.box3 {
+    background-color: #36f130;
+    box-sizing: border-box;
+    border: solid 30px #3d2ca5;
+}
+
+.dropdown-container {
+    width: 100%;
+    display: flex;
+}
+
+.dropdown {
+    position: relative;
+    display: flex;
+    color: #ffffff;
+    justify-content: center;
+    align-items: center;
+}
+
+.dropdown-left {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #428bca;
+    padding: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+    border-radius: 8px 0px 0px 8px;
+}
+
+.dropdown-left h1 {
+    position: relative;
+    font-size: 15px;
+    padding: 2px;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+.dropdown-right {
+    display: flex;
+    background-color: #428bca;
+    justify-content: center;
+    align-items: center;
+    padding: 9px;
+    border-radius: 0px 8px 8px 0px;
+    cursor: pointer;
+}
+
+.dropdown-menu {
+    display: none;
+    position: absolute;
+    top: 31px;
+    background-color: white;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+    border-radius: 5px;
+    right: 0px;
+    color: black;
+    font-size: 15px;
+}
+
+.dropdown-menu li {
+    list-style: none;
+    padding: 7px;
+    padding-left: 15px;
+    padding-right: 15px;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+
+.dropdown-menu li:hover {
+    background-color: #3276b1;
+    color: #ffffff;
+    border-radius: 5px;
+}
+
+.dropdown-menu ion-icon {
+    margin-right: 10px;
+}
+
+.dropdown-menu ul {
+    margin: 0;
+    padding: 0;
+}
+
+.dropdown:hover .dropdown-menu {
+    display: block;
+}
+
+.dropdown:hover .dropdown-right {
+    background-color: #3276b1;
+}
+
+@media only screen and (max-width: 800px) {
+    body {
+        margin-left: 5px;
+        margin-right: 5px;
+    }
+}
+
+@media only screen and (max-width: 800px) {
+    .box {
+        width: 100%;
+    }
+}
